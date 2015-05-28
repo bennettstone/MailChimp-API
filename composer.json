@@ -1,0 +1,17 @@
+{
+    "name": "bennettstone/mailchimp-api",
+    "description": "Super lightweight MailChimp API designed to be used with Ajax requests.  Provides functions for adding a list member, updating a list member, and removing a list member.", 
+    "keywords": ["mailchimp"], 
+    "authors": [
+        {
+            "name": "Bennett Stone",
+            "homepage": "http://phpdevtips.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.0"
+    }, 
+    "autoload": {
+        "classmap": ["Mailchimp.php"]
+    }
+}
